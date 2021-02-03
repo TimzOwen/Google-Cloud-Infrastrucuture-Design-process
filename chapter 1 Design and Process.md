@@ -140,3 +140,55 @@ __Resource__ is an abstract notion of information
 
 __Batch APIs__: Returns collection of items instead of single items
 
+
+### HTTP
+#### Client Accessing services using http:
+
+Built in 3 parts:
+    Request line
+    Header variables
+    request body
+
+__Http verb__ tells the server what to do:
+
+    GET-> used to retreive data
+    POST-> Used to create data
+    PUT-> Create data or alter existing data
+    DELETE->used to remove data
+
+#### HTTP Response:
+
+    Response Code:
+        200 -> success
+        400->Client erorrs
+        500 -> server errors
+    Response Body:
+        JSON, XML, HTML, ...
+
+### APIs (Application Programming Interface):
+
+#### API Design:
+
+    Services to expise REST APIs
+    have services endpoint 
+    make GET request
+
+__OpernAPI__ industry standard for exposing APIs to the Client:
+
+#### gRPC 
+
+a lightweight protocol for fast, binary commmunication between services or devices
+
+was developed at Google and supports many languages
+
+supported by Google services 
+    cloud endpoints
+    Google load balancer HTTP/2
+
+__Google services for managing APIS__
+
+    Cloud endpoints
+    Apigee
+
+
+
