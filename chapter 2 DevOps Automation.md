@@ -80,5 +80,28 @@ Consistency:
 Cost:
 
     cost per GB
+    
+
+#### Choosing Google Cloud Storage and Data solutions:
+
+Includes:
+    Relatoional 
+    NoSQL
+    Object
+    Warehouse
+    In-memory
+
+Moving speed data depends on data.
+
+### Google Cloud and Hybrid Network Architecture:
+
+#### Designing Google Cloud Netwroks:
+
+Design network based on:
+    Location
+    number of users
+    scalability
+    Fault tolerance
+    company service requirement
 
 
