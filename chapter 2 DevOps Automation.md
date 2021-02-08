@@ -147,3 +147,30 @@ __Network Inteligence Center__:
 
     Test network connectivity
 
+
+#### Connecting Networks:
+
+Use __VPC Peering__ to connect networks when they are both in Google Cloud
+
+    Subnets cannot overlap
+
+    Admins must approve each VPc request.
+
+Use __Cloud VPN__ to connect networks __on-premise__ or in another cloud
+
+    can configure static or dynamic configuration using (BGP)
+
+__For high availability VPN__:
+
+    2 Netwroks 
+    2 IP address
+    Multiple VPN support for each network
+
+__For high speed between two networks__:
+
+    use Cloud Interconnect 
+
+    provide direct connection
+
+    provide connection through service provider
+
