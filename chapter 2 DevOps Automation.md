@@ -42,3 +42,43 @@ __IaC__ allows provisioning and removal of infrastructure quickly
     Chef
     Terraform
     Ansible
+
+
+### Cloud Storage & Data solutions
+
+#### Cloud Managed Storage portfolio:
+
+    Relatoional 
+        Cloud SQL
+        Cloud Spanner
+    NoSQL
+        Firestore
+        CLoud Bigtable
+    Object
+        Cloud Storage
+    Warehouse
+        BigQuery
+    In Memory
+        Memorystore
+
+
+#### Durability represent the odds of losing data.
+
+Storage choice:
+    
+    Amount of data is important and also number of reads and writes.
+
+    some scalling automatic and manual
+
+Consistency: 
+
+    strong consistency.
+    Cloud SQL
+    Spanner
+    Firestore
+
+Cost:
+
+    cost per GB
+
+
