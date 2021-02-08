@@ -105,3 +105,45 @@ Design network based on:
     company service requirement
 
 
+#### VPC networks
+    create subnets for regions
+    choose close regions
+    projects can have multiple regions 
+
+#### Creating Network subnets:
+
+    IP ranges cannot overlap
+    Machines with same VPC can communicate with internal IP
+
+Vms can have multiple network interfaces connecting to different networks
+
+Shared VPc allows project sharing 
+
+#### Designing Google cloud Laod balancers:
+
+__Global Load balancers__ supported by __HTTP__ load balancer  and TCP and SSL proxies:
+
+#### Single region laod balacing:
+
+supported by __HTTP__, __TCP__ and __UDP__ load balancers
+
+Can have public or private IP address
+
+    for public secure them with SSL
+
+Can use any TCP or UDP port
+
+#### Achieve low latency by leveraging Cloud CDN.
+
+Cache static web contents
+
+cache static data from web servers
+
+Enabled with starting HTTP Global
+
+__Network Inteligence Center__:
+
+    used to visualize netwrok topology
+
+    Test network connectivity
+
