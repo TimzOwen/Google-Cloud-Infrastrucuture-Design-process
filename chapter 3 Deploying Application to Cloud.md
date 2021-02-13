@@ -46,3 +46,31 @@ Cloud Functions:
     Can be triggered by changes in a storage bucket ], Pub/Sub messages or web request.
     Completely managed, scalable and inexpensive
     
+#### Designing Reliable systems
+
+Consider __Reliability__  , __Scalability__ and __Durability__
+
+Avoid single point of Failure:
+
+    Define your unit of deployment 
+    Each unit can handle extra load
+    Don't make single unit large
+
+Be ware of corelation failure 
+
+Avoid corelated failures:
+
+    Decouple server and use microservices distributed among multiple failures
+
+Beware of cascading
+
+    occurs when one system fails causing others to be overloaded
+
+Query of death overload:
+
+    condition where a request made to the server causes a failure
+    caused by over consuption  of resources
+
+positive feedback cycle overload failure:
+
+    Making a system more reliable by adding retries in event of failure BUT creates a potential for overload
