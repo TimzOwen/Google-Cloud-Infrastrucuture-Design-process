@@ -211,3 +211,20 @@ Leverage google cloud Cloud Armor to create network security
 
 
 Cloud Armor provide 7 layer security
+
+
+
+#### Encryption:
+
+Google Cloud provides __server-side__ encryption of data at rest by default.
+
+
+    Data encryption (DEK)
+    Key encryption
+    key rotation
+    Key management Services (Personla key management in the cloud)
+
+Customer supplied encryption are always created in user environment
+
+__Data Loss Prevention API__ is used to protect sensitive data by finding it and redacting it
+
