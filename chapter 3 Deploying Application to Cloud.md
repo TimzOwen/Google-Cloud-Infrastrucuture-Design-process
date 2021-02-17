@@ -121,3 +121,36 @@ __Recovery Point objective__ : Amount of data that would be acceptible to lose
 
 __Recovery time Objective__ : Amount of time it can take to be back and running after a disaster
 
+
+## Cloud and System's Security 
+
+#### Security concept:
+
+Google Cloud security is shared between Google and Clients.
+
+Security implemented in layers:
+
+    Hardware
+    Boot
+    OS + IPC
+    Storage
+    Application
+    Deployment
+    Operations
+    Usage
+
+Principle of least privilege:
+
+    allows user to only access some certain permissions
+
+Separation of duties:
+
+    allows deployment or code review by multiple teams and not one
+    different peopple different rights
+
+Regular audit to Google Cloud logs to discover attacks
+
+Security command Center 
+
+    provide security configuration to different projects 
+
