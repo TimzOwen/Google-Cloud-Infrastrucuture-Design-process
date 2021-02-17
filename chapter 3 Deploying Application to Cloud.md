@@ -179,3 +179,35 @@ Can use service account keys to configure the CLI
 
     useful for automation
 
+
+
+
+### Network Security:
+
+
+Remove __external Ips__ to prevent access to machines outside network
+
+    use baston host for private machine
+    SSH into internal machines
+    CLous NAT to provide egress to internet from internal machines
+
+All internet traffic should terminate at load balancers
+
+__private access__ allows access to google cloud service using an internal address
+
+    enable when creating subnets 
+
+configure firewal rules to allows access to VMs
+
+__Cloud Endpoints__ allows control over APIS
+
+    valid evry call to json
+
+Restric access to your services to TLS only 
+
+    creates secure frontend
+
+Leverage google cloud Cloud Armor to create network security
+
+
+Cloud Armor provide 7 layer security
