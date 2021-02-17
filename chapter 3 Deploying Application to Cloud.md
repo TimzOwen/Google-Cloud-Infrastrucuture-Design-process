@@ -74,3 +74,50 @@ Query of death overload:
 positive feedback cycle overload failure:
 
     Making a system more reliable by adding retries in event of failure BUT creates a potential for overload
+
+
+
+### Disaster Planning:
+
+Can be achieved by deploying to multiple Zones in a region
+
+    Multiple servers
+
+    distributed db link
+
+    Orchestrate servers with a regional Managed instance
+
+Also have __regional managed__ instance group
+
+    multiple zones
+
+Deploy kubernetes in multiple zones 
+
+Create __health check__ to enable auto healing when creating vm instances
+
+    Load balancers also use health check 
+
+High availability can be achienved by using __multi-region__ storage buckets for hight 
+
+    availabilty if latency impact id negligible
+
+High availability in __ClousSQL__:
+
+    create fail over replica
+
+Deploying for high reliability increases cost
+
+
+#### Disaster recovery:
+
+__Cold standby__ creates snapshotsof the machine images
+
+__Hot standby__  creates instance groups in multiple regions
+
+
+#### Disaster planning:
+
+__Recovery Point objective__ : Amount of data that would be acceptible to lose
+
+__Recovery time Objective__ : Amount of time it can take to be back and running after a disaster
+
