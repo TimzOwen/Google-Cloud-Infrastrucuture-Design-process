@@ -153,4 +153,29 @@ Regular audit to Google Cloud logs to discover attacks
 Security command Center 
 
     provide security configuration to different projects 
+    
+
+
+#### Securing People:
+
+Login members and assign tasks based on their roles
+
+Add member to groups for ease management
+
+Use organizational folders and policy 
+
+Cloud Identity-Aware Proxy  for ease authorization to GCP and VMs
+
+Identity platforms as authentication services
+
+
+#### Securing Machine access
+
+Service accounts can be used for machines or applicaiton entities
+
+Keys Cloud MS can be used to secure cloud Keys
+
+Can use service account keys to configure the CLI
+
+    useful for automation
 
