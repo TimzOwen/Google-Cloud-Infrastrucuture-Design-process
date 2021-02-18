@@ -53,3 +53,20 @@ Export biling data to BigQuery
 
 Visual spend with Google Studio
 
+
+
+
+### Monitoring Dashboard
+
+Google unifies the tools you need to monitor your SLOs and SLAs
+
+Monitoring dashboard monitor your service
+
+__Cloud Monitoring__ creates default dashboards for your project
+
+create __uptime check__ to monitor availability and latency
+
+create alart when your service doesn't meet your SLOs
+
+
+
