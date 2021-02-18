@@ -18,3 +18,38 @@ use __blue/green__ deployment when you dont want multiple version of service to 
 
 __Cananry update__ can be used prior to rolling update to reduce the risk.
 
+
+
+### Cost planning
+
+This is a continoud iterative cycle of 
+    Deploy 
+    approve
+    allocate
+    Forecast
+
+
+__Optimize cost of compute:__
+
+    start with small vms and see weather they work or not 
+    consider small machines withiut auto scalling
+    consider atleast some preentive instances
+
+Optimzing disk cost 
+
+Optimize network cost (keep machines close)
+
+prevent overpositioning of kubernetes clusters (user GkE metering).
+
+compare storage preferences
+
+consider alternative services to save cost 
+
+use Google cloud pricing calculator
+
+use biling reports to provide details 
+
+Export biling data to BigQuery 
+
+Visual spend with Google Studio
+
